@@ -2,8 +2,18 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+#content{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
 .logo{
-    width: 40px;
+    width: 35px;
 }
 
 .header{
@@ -12,10 +22,12 @@
     justify-content: space-between;
     padding-left: 15px;
     padding-right: 15px;
+    background-color: lightgoldenrodyellow;
 }
 
 .header-left{
     display: flex;
+    flex-shrink: 0;
     gap: 10px;
     align-items: center;
     justify-content: center;
@@ -32,4 +44,46 @@
 
 .hero-img{
     max-width: 100%;
+}
+
+.cta{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    background-color: lightsteelblue;
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+    gap: 20px;
+    border-radius: 4px;
+}
+
+.cta .button{
+    flex: 1 0 auto;
+    border-radius: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: green;
+    box-shadow: 1.5px 1.5px black;
+}
+
+.cta .button a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer{
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    margin-top: 15px;
 }
