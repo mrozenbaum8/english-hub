@@ -46,11 +46,6 @@ html, body {
     max-width: 100%;
 }
 
-.learning{
-    padding-left: 25px;
-    padding-right: 25px;
-}
-
 .learning ul{
     display: flex;
     flex: 1;
@@ -73,6 +68,11 @@ html, body {
     border-style: solid;
     border-width: 1px;
     border-radius: 4px;
+    width: 135px;
+}
+
+#development{
+    width: 250px;
 }
 
 .learning img{
